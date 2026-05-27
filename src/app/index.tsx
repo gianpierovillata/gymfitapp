@@ -131,7 +131,7 @@ export default function HomeScreen() {
         Alert.alert('Coming Soon', 'Pantalla de rutinas en desarrollo');
         break;
       case 'foods':
-        Alert.alert('Coming Soon', 'Pantalla de alimentos en desarrollo');
+        router.push('/foods');
         break;
       case 'dashboard':
         Alert.alert('Coming Soon', 'Dashboard en desarrollo');
